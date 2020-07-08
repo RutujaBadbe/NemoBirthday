@@ -1,0 +1,124 @@
+body
+{
+	margin:1px;
+	padding:2px;
+	background-color:lightblue;
+	background-image:url(../images/background.jpg);
+	background-attachment:fixed;
+	background-position: 0px 0px;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+ header
+ {
+	 background-color:blue;
+	 background-image:url(../images/headerBack.jpg);
+	 background-attachment:scroll;
+	 background-position: 0px 0px;
+	 background-size:auto;
+	 position: relative;
+    top: -50px;
+ }
+ header h1
+ {
+	 text-align:center;
+	 font-family:Algerian;
+	 font-weight:bold;
+	 font-size:700%;
+ }
+ section
+ {
+	 width:30%;
+	 float:left;
+	 height:100%;
+ }
+ 
+ img
+ {
+	display: block;
+    width: 70%;
+	height:40%;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 10%;
+    margin-bottom: 5%;
+    border: 2px solid #000000;
+	
+	
+ }
+ .left img
+ {
+	 transform:rotate(-10deg);
+ }
+ figcaption
+ {
+	 text-align:center;
+	 font-weight:bold;
+	 width: 50%;
+     margin: 0px auto;
+     font-size: 110%;
+     padding: 2%;
+     background-color: #01ffffe6;
+	 
+ }
+ .right img
+ {
+	 transform:rotate(10deg);
+ }
+ .photo
+ {
+	 
+	 position: relative;
+     top: -80px;
+ }
+ .wishes
+ {
+	 padding:1%;
+	 width:35%;
+	 margin:0px auto;
+	 position: relative;
+     top: -80px;
+ }
+ .wishes p
+ {
+	 margin-top: 0px;
+	 font-size:135%;
+	 font-family:"Ink Free", Papyrus, Arial;
+	 font-weight:bold;
+	 border: 3px double #000000;
+	 background-color:rgba(100, 149, 237, 0.85);
+	 color: black;
+ }
+ .wishes a
+ {
+	 /*display: block;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #0000009e;
+    width: 20%;
+    margin: 0px auto;
+    background: #ffffffb8;
+	font-size: 150%;
+    font-weight: 700;*/
+	text-decoration: none;
+    display: block;
+    width: 30%;
+    margin: 0px auto;
+    text-align: center;
+    padding: 1%;
+    font-size: x-large;
+    background: burlywood;
+    border: 3px double #0f0f0f;
+	
+ }
+ .wishes a:hover
+ {
+	 border: 1px solid #000000;
+	 background: #ffffff;
+	 width:24%;
+	 font-size:160%;
+	 
+	 
+	 
+	 
+ }
